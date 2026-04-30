@@ -1,7 +1,7 @@
 import streamlit as st
-import yfinance as yf
 import pandas as pd
-from datetime import datetime
+import pandas_ta as ta  # Aqui usa sublinhado (_)
+import yfinance as yf
 
 # Configuração da página
 st.set_page_config(page_title="Trade Certo - Arbitragem de Dividendos", layout="wide")
